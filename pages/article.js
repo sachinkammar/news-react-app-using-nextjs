@@ -6,24 +6,24 @@ import Nav from '../components/nav'
 const Article = () => (
   <div>
     <Head>
-        <title>The Lorem and Ipsum of Styling Pancakes - FB TELUGU</title>
+        <title>The Lorem and Ipsum of Styling Pancakes</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="theme-color" content="#000000" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta property="og:site_name" content="webcam.fbtelugu.com" />
+        <meta property="og:site_name" content="webcam.platifi.com" />
         <meta property="og:image" content="https://s3-us-west-2.amazonaws.com/s.cdpn.io/8533/pancakes.jpg" name="image" />
         <meta property="og:image:secure_url" content="https://s3-us-west-2.amazonaws.com/s.cdpn.io/8533/pancakes.jpg" />
         <meta property="og:image:width" content="600" />
         <meta property="og:image:height" content="500" />
-        <meta property="og:image:alt" content="FB Telugu" />
-        <meta property="og:title" content="The Lorem and Ipsum of Styling Pancakes - FB TELUGU" name="title" />
+        <meta property="og:image:alt" content="News Test Pl" />
+        <meta property="og:title" content="The Lorem and Ipsum of Styling Pancakes" name="title" />
         <meta content="news, trending, latest news" name="keywords" />
         <meta property="og:description" content="A pancake is a flat cake, often thin, and round, prepared from a starch-based batter that may also contain eggs, milk and butter and cooked on a hot surface such as a griddle or frying pan, often with oil or butter. In Britain, pancakes are often unleavened,
             and resemble a crêpe. In North America, a raising agent is used (typically baking powder). The North American pancake is similar to a Scotch pancake or drop scone. " name="description" />
         <meta content="A pancake is a flat cake, often thin, and round, prepared from a starch-based batter that may also contain eggs, milk and butter and cooked on a hot surface such as a griddle or frying pan, often with oil or butter. In Britain, pancakes are often unleavened,
             and resemble a crêpe. In North America, a raising agent is used (typically baking powder). The North American pancake is similar to a Scotch pancake or drop scone. " name="description" />
-        <meta property="og:url" content="https://webcam.fbtelugu.com/article" />
+        <meta property="og:url" content="https://webcam.platifi.com/article" />
         <meta property="og:type" content="website" />
     </Head>
     <div className="holder">

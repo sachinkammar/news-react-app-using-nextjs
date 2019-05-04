@@ -5,7 +5,25 @@ import Nav from '../components/nav'
 
 const Home = () => (
   <div>
-    <Head title="Home" />
+    <Head>
+        <title>News Test Pl</title>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="theme-color" content="#000000" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta property="og:site_name" content="webcam.platifi.com" />
+        <meta property="og:image" content="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg" name="image" />
+        <meta property="og:image:secure_url" content="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg" />
+        <meta property="og:image:width" content="600" />
+        <meta property="og:image:height" content="500" />
+        <meta property="og:image:alt" content="News Test Pl" />
+        <meta property="og:title" content="News Test Pl" name="title" />
+        <meta content="news, trending, latest news" name="keywords" />
+        <meta property="og:description" content="Get the latest news and trending articles" name="description" />
+        <meta content="Get the latest news and trending articles" name="description" />
+        <meta property="og:url" content="https://webcam.platifi.com/home" />
+        <meta property="og:type" content="website" />
+    </Head>
     <Nav />
 
     <div className="hero">
