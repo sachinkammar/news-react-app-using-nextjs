@@ -4,7 +4,7 @@ import Head from '../components/head'
 import Nav from '../components/nav'
 
 const Home = () => (
-  <div>
+  <div className="bodyp">
     <Head>
         <title>News Test Pl</title>
         <meta charSet="utf-8" />
@@ -12,8 +12,8 @@ const Home = () => (
         <meta name="theme-color" content="#000000" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta property="og:site_name" content="webcam.platifi.com" />
-        <meta property="og:image" content="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg" name="image" />
-        <meta property="og:image:secure_url" content="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/photo-1429043794791-eb8f26f44081.jpeg" />
+        <meta property="og:image" content="https://images.unsplash.com/photo-1541636752-a5ace3a8a2d6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b3d5ec3f81c8ab31d1e7b0809ad178a6&auto=format&fit=crop&w=500&q=60" name="image" />
+        <meta property="og:image:secure_url" content="https://images.unsplash.com/photo-1541636752-a5ace3a8a2d6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b3d5ec3f81c8ab31d1e7b0809ad178a6&auto=format&fit=crop&w=500&q=60" />
         <meta property="og:image:width" content="600" />
         <meta property="og:image:height" content="500" />
         <meta property="og:image:alt" content="News Test Pl" />
@@ -24,84 +24,255 @@ const Home = () => (
         <meta property="og:url" content="https://webcam.platifi.com/home" />
         <meta property="og:type" content="website" />
     </Head>
-    <Nav />
 
-    <div className="hero">
-      <h1 className="title">Welcome to Next!</h1>
-      <p className="description">
-        To get started, edit <code>pages/index.js</code> and save to reload.
-      </p>
-
-      <div className="row">
-        <Link href="https://github.com/zeit/next.js#getting-started">
-          <a className="card">
-            <h3>Getting Started &rarr;</h3>
-            <p>Learn more about Next on Github and in their examples</p>
-          </a>
-        </Link>
-        <Link href="https://open.segment.com/create-next-app">
-          <a className="card">
-            <h3>Examples &rarr;</h3>
-            <p>
-              Find other example boilerplates on the{' '}
-              <code>create-next-app</code> site
-            </p>
-          </a>
-        </Link>
-        <Link href="https://github.com/segmentio/create-next-app">
-          <a className="card">
-            <h3>Create Next App &rarr;</h3>
-            <p>Was this tool helpful? Let us know how we can improve it</p>
-          </a>
-        </Link>
+    <div className="container">
+      <div className="posts">
+        
+        <div className="posts__item posts__item--main">
+          <div className="posts__image">
+            <img src="https://images.pexels.com/photos/638479/pexels-photo-638479.jpeg?auto=compress&cs=tinysrgb&h=350" alt="Post image" />
+          </div>
+          <div className="posts__information">
+            <div className="posts__date">
+              November 28, 2015
+            </div>
+            <div className="posts__title">
+              <a href="#">Fantastic Designs Of 2015 Concept Cars</a>
+            </div>
+          </div>
+        </div>
+        
+        <div className="posts__item">
+          <div className="posts__image">
+            <img src="https://images.unsplash.com/photo-1541654056076-0a252e083078?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0973edee71e034b2da232c4f4fe99cef&auto=format&fit=crop&w=500&q=60" alt="Post image" />
+          </div>
+          <div className="posts__information">
+            <div className="posts__date">
+              November 24, 2015
+            </div>
+            <div className="posts__title">
+              <a href="#">How To Find Design Inspiration In The Simple Things Around You</a>
+            </div>
+            <div className="posts__author">
+              <a href="#">
+                <img src="https://randomuser.me/api/portraits/men/33.jpg" alt="Author" />
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div className="posts__item">
+          <div className="posts__image">
+            <img src="https://images.unsplash.com/photo-1541636752-a5ace3a8a2d6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b3d5ec3f81c8ab31d1e7b0809ad178a6&auto=format&fit=crop&w=500&q=60" alt="Post image" />
+          </div>
+          <div className="posts__information">
+            <div className="posts__date">
+              November 18, 2015
+            </div>
+            <div className="posts__title">
+              <a href="#">The Only Guide To Choosing Website Photos You’ll Ever Need</a>
+            </div>
+            <div className="posts__author">
+              <a href="#">
+                <img src="https://randomuser.me/api/portraits/men/33.jpg" alt="Author" />
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div className="posts__item">
+          <div className="posts__image">
+            <img src="https://images.unsplash.com/photo-1541618236-90386f48b9ee?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=89485d218a2ffb816d895360eddd817d&auto=format&fit=crop&w=500&q=60" alt="Post image" />
+          </div>
+          <div className="posts__information">
+            <div className="posts__date">
+              November 08, 2015
+            </div>
+            <div className="posts__title">
+              <a href="#">Growth Hack Your Way to a Successful Freelance Career</a>
+            </div>
+            <div className="posts__author">
+              <a href="#">
+                <img src="https://randomuser.me/api/portraits/men/33.jpg" alt="Author" />
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div className="posts__item">
+          <div className="posts__image">
+            <img src="https://images.unsplash.com/photo-1541473246607-0676be857916?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b85ddefa8f867ff9eaf62129d5f1f045&auto=format&fit=crop&w=500&q=60" alt="Post image" />
+          </div>
+          <div className="posts__information">
+            <div className="posts__date">
+              November 08, 2015
+            </div>
+            <div className="posts__title">
+              <a href="#">Get 80% Off DSLR Photography Course Bundle</a>
+            </div>
+            <div className="posts__author">
+              <a href="#">
+                <img src="https://randomuser.me/api/portraits/men/33.jpg" alt="Author" />
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
     <style jsx>{`
-      .hero {
-        width: 100%;
-        color: #333;
-      }
-      .title {
+      @import url("https://fonts.googleapis.com/css?family=Open+Sans:600,700");
+      * {
         margin: 0;
-        width: 100%;
-        padding-top: 80px;
-        line-height: 1.15;
-        font-size: 48px;
+        padding: 0;
       }
-      .title,
-      .description {
-        text-align: center;
+      
+      .bodyp {
+        margin:-8px;
+        padding:0;
+        background: linear-gradient(to right, #00dbde, #fc00ff) !important;
       }
-      .row {
-        max-width: 880px;
-        margin: 80px auto 40px;
+      
+      .container {
+        max-width: 1200px;
+        min-width: 320px;
+        padding: 60px 0;
+        margin: 0 auto;
+      }
+      
+      .posts {
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        flex-wrap: wrap;
+        justify-content: space-between;
       }
-      .card {
-        padding: 18px 18px 24px;
-        width: 220px;
-        text-align: left;
-        text-decoration: none;
-        color: #434343;
-        border: 1px solid #9b9b9b;
+      .posts__item {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 32%;
+        background-color: #fff;
+        margin-bottom: 22px;
+        position: relative;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
       }
-      .card:hover {
-        border-color: #067df7;
+      .posts__item--main {
+        flex-basis: 66%;
       }
-      .card h3 {
-        margin: 0;
-        color: #067df7;
-        font-size: 18px;
+      .posts__item--main:after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
       }
-      .card p {
-        margin: 0;
-        padding: 12px 0 0;
+      .posts__item--main .posts__image {
+        display: flex;
+        flex-grow: 1;
+      }
+      .posts__item--main .posts__information {
+        position: absolute;
+        bottom: 35px;
+        left: 50px;
+        padding: 0 25px 0 0;
+        z-index: 1;
+      }
+      .posts__item--main .posts__title a {
+        font-size: 30px;
+        line-height: 36px;
+        letter-spacing: 0.75px;
+        color: #fff;
+      }
+      .posts__image > img {
+        display: block;
+        width: 100%;
+      }
+      .posts__information {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 15px 25px;
+        flex-grow: 1;
+      }
+      .posts__date {
         font-size: 13px;
-        color: #333;
+        line-height: 30px;
+        letter-spacing: 0.325px;
+        color: #818181;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin: 7px 0;
       }
+      .posts__title {
+        margin-top: 7px;
+        margin-bottom: auto;
+      }
+      .posts__title a {
+        font-size: 22px;
+        line-height: 30px;
+        color: #000;
+        font-weight: 700;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 0.55px;
+      }
+      .posts__title a:hover {
+        text-decoration: underline;
+      }
+      .posts__author {
+        margin-top: 55px;
+      }
+      .posts__author img {
+        border-radius: 50px;
+        width: 60px;
+      }
+      
+      @media screen and (max-width: 992px) {
+        .posts__information {
+          padding: 10px 15px 15px 15px;
+        }
+      
+        .posts__date {
+          font-size: 12px;
+        }
+      
+        .posts__title a {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      
+        .posts__item--main .posts__information .post-title a {
+          font-size: 20px;
+          line-height: 26px;
+        }
+      }
+      @media screen and (max-width: 768px) {
+        .posts__item {
+          flex-basis: 49%;
+        }
+      
+        .posts__item--main {
+          flex-basis: 100%;
+          justify-content: center;
+        }
+        .posts__item--main .posts__image {
+          display: block;
+        }
+        .posts__item--main .posts__information {
+          width: 100%;
+          bottom: auto;
+          left: auto;
+          align-items: center;
+          text-align: center;
+          padding: 0;
+        }
+      }
+      @media screen and (max-width: 480px) {
+        .posts__item {
+          flex-basis: 100%;
+        }
+      }
+      
     `}</style>
   </div>
 )

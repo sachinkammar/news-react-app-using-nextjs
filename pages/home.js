@@ -4,7 +4,7 @@ import Head from 'next/head'
 import Nav from '../components/nav'
 
 const Main = () => (
-  <div>
+  <div> 
     <Head>
         <title>News Test Pl</title>
         <meta charSet="utf-8" />
@@ -26,7 +26,7 @@ const Main = () => (
     </Head>
     <Nav />
 
-    <div className='container'>
+    <div className='container box'>
         <div className='info'>
             <h1>Article News Card</h1>
         </div>
@@ -90,8 +90,7 @@ const Main = () => (
 
 
     <style jsx>{`
-      body {
-        background: #f2f2f2;
+      .box {
         font-family: 'proxima-nova-soft', sans-serif;
         font-size: 14px;
         -webkit-font-smoothing: antialiased;

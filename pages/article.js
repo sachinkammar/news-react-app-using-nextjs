@@ -83,7 +83,7 @@ const Article = () => (
     <style jsx>{`
         @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i')
         * { box-sizing: border-box; }
-        holder {
+        .holder {
           font-family: 'Lato', sans-serif;
           font-size: 16px;
           line-height: 1.6;
