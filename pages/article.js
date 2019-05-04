@@ -26,6 +26,14 @@ const Article = () => (
         <meta property="og:url" content="https://webcam.platifi.com/article" />
         <meta property="og:type" content="website" />
     </Head>
+    <div className="nav-body">
+      <ul className="nav">
+        <li><a href="/">Home</a><i class="circle"></i></li>
+        <li><a href="/home">News</a></li>
+        <li><a href="article">Article</a></li>
+        <li><a href="/">Contact us</a></li>
+      </ul>
+    </div><br /><br />
     <div className="holder">
     <article className="article">
         <header className="header">
@@ -122,6 +130,54 @@ const Article = () => (
         p { font-size: 1.25rem; }
         .article { max-width: 45rem; padding: 0 1rem; margin: 0 auto; }
         img { max-width: 100%; }
+        /*
+         navigation
+       */
+      .nav-body {
+        padding-right: 100px; 
+        font: 500 16px/1.2 Lato;
+        float:right
+       }
+       .nav {
+         list-style: none;
+       }
+       
+       /*
+         nav list items
+         1. side by side
+         2. needed for circle positioning
+       */
+       .nav li {
+         float: left; /*1*/
+       }
+       
+       /*
+         nav link items
+       */
+       .nav > li a {
+         display: block; /*1*/
+         padding: 0px 18px; /*2*/
+         text-decoration: none; /*3*/
+         color: #000; /*4*/
+         transition: all ease .5s;
+         opacity:0.7
+       }
+       
+       /*
+         fade out all links on ul hover
+       */
+       .nav:hover > li a {
+         opacity: .5;
+         transition: all ease .5s;
+       }
+       
+       /*
+         override previous rule to highlight current link
+       */
+       .nav > li:hover a {
+         opacity: 1;
+         border-color: #E74C3C;
+       }
     `}</style>
   </div>
 )

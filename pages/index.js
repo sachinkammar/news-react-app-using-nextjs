@@ -24,7 +24,14 @@ const Home = () => (
         <meta property="og:url" content="https://webcam.platifi.com/home" />
         <meta property="og:type" content="website" />
     </Head>
-
+    <div className="nav-body">
+      <ul className="nav">
+        <li><a href="">Home</a><i class="circle"></i></li>
+        <li><a href="/home">News</a></li>
+        <li><a href="article">Article</a></li>
+        <li><a href="/">Contact us</a></li>
+      </ul>
+    </div><br /><br />
     <div className="container">
       <div className="posts">
         
@@ -136,7 +143,7 @@ const Home = () => (
       .container {
         max-width: 1200px;
         min-width: 320px;
-        padding: 60px 0;
+        padding: 20px 0;
         margin: 0 auto;
       }
       
@@ -272,7 +279,55 @@ const Home = () => (
           flex-basis: 100%;
         }
       }
-      
+      /*
+         navigation
+       */
+      .nav-body {
+        padding-right: 100px; 
+        font: 500 16px/1.2 Lato;
+        float:right
+       }
+       .nav {
+         list-style: none;
+       }
+       
+       /*
+         nav list items
+         1. side by side
+         2. needed for circle positioning
+       */
+       .nav li {
+         float: left; /*1*/
+       }
+       
+       /*
+         nav link items
+       */
+       .nav > li a {
+         display: block; /*1*/
+         padding: 15px 18px; /*2*/
+         text-decoration: none; /*3*/
+         color: #fff; /*4*/
+         transition: all ease .5s;
+         opacity:0.7
+       }
+       
+       /*
+         fade out all links on ul hover
+       */
+       .nav:hover > li a {
+         opacity: .5;
+         transition: all ease .5s;
+       }
+       
+       /*
+         override previous rule to highlight current link
+       */
+       .nav > li:hover a {
+         opacity: 1;
+         color: #fff;
+         border-color: #E74C3C;
+       }
     `}</style>
   </div>
 )
