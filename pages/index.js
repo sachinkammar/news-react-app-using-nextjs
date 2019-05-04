@@ -5,7 +5,7 @@ import Nav from '../components/nav'
 
 const Home = () => (
   <div className="bodyp">
-    <Head>
+    <Head title="News Test Pl">
         <title>News Test Pl</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -143,7 +143,7 @@ const Home = () => (
       .container {
         max-width: 1200px;
         min-width: 320px;
-        padding: 20px 0;
+        padding: 100px 0;
         margin: 0 auto;
       }
       
@@ -285,7 +285,8 @@ const Home = () => (
       .nav-body {
         padding-right: 100px; 
         font: 500 16px/1.2 Lato;
-        float:right
+        float:right;
+        display:block
        }
        .nav {
          list-style: none;
