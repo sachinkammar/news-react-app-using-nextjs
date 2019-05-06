@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 import Nav from '../components/nav'
+import Footer from '../components/footer'
 
 const Article = () => (
   <div>
@@ -25,244 +26,362 @@ const Article = () => (
             and resemble a crêpe. In North America, a raising agent is used (typically baking powder). The North American pancake is similar to a Scotch pancake or drop scone. " name="description" />
         <meta property="og:url" content="https://webcam.platifi.com/article" />
         <meta property="og:type" content="website" />
-        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"></link>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet" />
+        <link rel="stylesheet" href="../static/css/linearicons.css" />
+        <link rel="stylesheet" href="../static/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="../static/css/bootstrap.css" />
+        <link rel="stylesheet" href="../static/css/magnific-popup.css" />
+        <link rel="stylesheet" href="../static/css/nice-select.css" />
+        <link rel="stylesheet" href="../static/css/animate.min.css" />
+        <link rel="stylesheet" href="../static/css/owl.carousel.css" />
+        <link rel="stylesheet" href="../static/css/jquery-ui.css" />
+        <link rel="stylesheet" href="../static/css/main.css" />
     </Head>
-    <div className="nav-body">
-      <ul className="nav">
-        <li><a href="/">Home</a><i class="circle"></i></li>
-        <li><a href="/home">News</a></li>
-        <li><a href="article">Article</a></li>
-        <li><a href="/">Contact us</a></li>
-      </ul>
-    </div><br /><br />
-    <div className="holder">
-    <article className="container">
-    <div className="col-md-8">
-        <header className="header">
-            <div className="category">Life</div>
-            <h1 className="headline">
-            The Lorem and Ipsum of Stylin&rsquo; Pancakes
-            </h1>
-            <div className="meta">
-            <span className="meta-border"></span>
-            <span className="author">by <span className="author-avatar"><img src="http://gravatar.com/avatar/6fafd1e5977a3d9fdccb7207bb1175ba" /></span><span className="author-name">Jimmy Wafflehoff</span></span>
-            <span className="pub-date">Posted Sept. 22, 2015</span>
+    <div>
+      <Nav />
+      <div className="site-main-container">
+        {/* Start top-post Area */}
+        <section className="top-post-area pt-10">
+          <div className="container no-padding">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="hero-nav-area">
+                  <h1 className="text-white">Image Post</h1>
+                  <p className="text-white link-nav"><a href="index.html">Home </a>  <span className="lnr lnr-arrow-right" /><a href="#">Post Types </a><span className="lnr lnr-arrow-right" /><a href="image-post.html">Image Post </a></p>
+                </div>
+              </div>
+              <div className="col-lg-12">
+                <div className="news-tracker-wrap">
+                  <h6><span>Breaking News:</span>   <a href="#">Astronomy Binoculars A Great Alternative</a></h6>
+                </div>
+              </div>
             </div>
-        </header>
-
-        <p>A pancake is a flat cake, often thin, and round, prepared from a starch-based batter that may also contain eggs, milk and butter and cooked on a hot surface such as a griddle or frying pan, often with oil or butter. In Britain, pancakes are often unleavened,
-            and resemble a crêpe. In North America, a raising agent is used (typically baking powder). The North American pancake is similar to a Scotch pancake or drop scone. Commercially prepared pancake mixes are produced in some countries.</p>
-        
-        <p>They may be served at any time with a variety of toppings or fillings including jam, fruit, syrup, chocolate chips, or meat. In America, they are typically considered to be a breakfast food. In Britain and the Commonwealth, they are associated with
-            Shrove Tuesday, commonly known as Pancake Day, when perishable ingredients had to be used up before the fasting period of Lent began.</p>
-        
-        <p>Archaeological evidence suggests that pancakes are probably the earliest and most widespread cereal food eaten in prehistoric societies.<sup>[1]</sup> The pancake's shape and structure varies worldwide. A crêpe is a thin Breton pancake cooked on one or both sides
-            in a special pan or crepe maker to achieve a lacelike network of fine bubbles. A well-known variation originating in Southeast Europe is Palačinke, a thin moist pancake fried on both sides and filled with jam, cheese cream, chocolate, or ground walnuts,
-            but many other fillings, both sweet or savory, can also be used.</p>
-        
-        <figure>
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/8533/pancakes.jpg" alt="American style pancakes" />
-            <figcaption><strong>Figure 1.</strong> American style pancakes.</figcaption>
-        </figure>
-        <h2>History</h2>
-        <p>
-            The Ancient Greeks made pancakes called τηγανίτης (tēganitēs), ταγηνίτης (tagēnitēs)<sup>[2]</sup> or ταγηνίας (tagēnias),<sup>[3]</sup> all words deriving from τάγηνον (tagēnon), "frying pan".<sup>[4]</sup> The earliest attested references on tagenias are in the works of the 5th century BC poets Cratinus<sup>[5]</sup> and Magnes.<sup>[6]</sup> Tagenites were made with wheat flour, olive oil, honey, and curdled milk, and were served for breakfast.
-        </p>
-        <h2>Regional varieties</h2>
-        <h3>Africa</h3>
-        <p>Lahoh is a pancake-like bread originating in Somalia, Djibouti and Yemen.[18][19] It is often eaten along with honey, ghee and tea. During lunch, lahoh is sometimes consumed with curry, soup or stew.</p>
-        <h3>Europe</h3>
-        <p>Eastern-Slavic cuisines have a long tradition of pancake cooking and include a large variety of pancake types. In Belarus, Russia and Ukraine, pancakes may be breakfast food, appetizer, main course, or even dessert.</p>
-        <figure>
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/8533/nalesniki.jpg" alt="Polish nalesniki" />
-            <figcaption><strong>Figure 2.</strong> Polish style stuffed crepes.</figcaption>
-        </figure>
-        <h3>Asia</h3>
-        <p>Banana pancakes are a menu item in Western-oriented backpackers' cafes in Asian countries such as Thailand, Cambodia, Vietnam, India, and China. This has elicited the term Banana Pancake Trail.</p>
-        <h3>Americas</h3>
-        <p>American and Canadian pancakes (sometimes called hotcakes, griddlecakes, or flapjacks) are usually served at breakfast, in a stack of two or three pancakes topped with real or artificial maple syrup and butter, and often served with sides such as bacon, toast, eggs or sausage. Other popular topping alternatives include jam, peanut butter, nuts, fruit, honey, powdered sugar, whipped cream, cane syrup, and molasses.</p>
-        <h2>Common Ingridients</h2>
-        <p>A <code>ul</code> tag is a good example of why you should set good default <code>font-size</code> and <code>line-height</code> above the context of simply paragraph tags. Let any sort of article content get sizing from its parents.</p>
-        <ul>
-            <li>Eggs</li>
-            <li>Flour or other starchy base.</li>
-            <li>Pure deliciousness.</li>
-        </ul> 
-        </div>
-        <div className="col-md-4">      
-            <div className="widget-sidebar">
-              <h2 className="title-widget-sidebar">// RECENT POST</h2>
-                <div className="content-widget-sidebar">
-                <ul>
-                  <li className="recent-post">
-                    <div className="post-img">
-                      <img src="https://lh3.googleusercontent.com/-ndZJOGgvYQ4/WM1ZI8dH86I/AAAAAAAADeo/l67ZqZnRUO8QXIQi38bEXuxqHfVX0TV2gCJoC/w424-h318-n-rw/thumbnail8.jpg" className="img-responsive" />
+          </div>
+        </section>
+        {/* End top-post Area */}
+        {/* Start latest-post Area */}
+        <section className="latest-post-area pb-120">
+          <div className="container no-padding">
+            <div className="row">
+              <div className="col-lg-8 post-list">
+                {/* Start single-post Area */}
+                <div className="single-post-wrap">
+                  <div className="feature-img-thumb relative">
+                    <div className="overlay overlay-bg" />
+                    <img className="img-fluid" src="../static/img/f1.jpg" alt />
+                  </div>
+                  <div className="content-wrap">
+                    <ul className="tags mt-10">
+                      <li><a href="#">Food Habit</a></li>
+                    </ul>
+                    <a href="#">
+                      <h3>A Discount Toner Cartridge Is Better Than Ever.</h3>
+                    </a>
+                    <ul className="meta pb-20">
+                      <li><a href="#"><span className="lnr lnr-user" />Mark wiens</a></li>
+                      <li><a href="#"><span className="lnr lnr-calendar-full" />03 April, 2018</a></li>
+                      <li><a href="#"><span className="lnr lnr-bubble" />06 </a></li>
+                    </ul>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus.
+                    </p>
+                    <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</blockquote>
+                    <div className="navigation-wrap justify-content-between d-flex">
+                      <a className="prev" href="#"><span className="lnr lnr-arrow-left" />Prev Post</a>
+                      <a className="next" href="#">Next Post<span className="lnr lnr-arrow-right" /></a>
+                    </div>
+                    <div className="comment-sec-area">
+                      <div className="container">
+                        <div className="row flex-column">
+                          <h6>05 Comments</h6>
+                          <div className="comment-list">
+                            <div className="single-comment justify-content-between d-flex">
+                              <div className="user justify-content-between d-flex">
+                                <div className="thumb">
+                                  <img src="../static/img/blog/c1.jpg" alt />
+                                </div>
+                                <div className="desc">
+                                  <h5><a href="#">Emilly Blunt</a></h5>
+                                  <p className="date">December 4, 2017 at 3:12 pm </p>
+                                  <p className="comment">
+                                    Never say goodbye till the end comes!
+                                  </p>
+                                </div>
+                              </div>
+                              <div className="reply-btn">
+                                <a href className="btn-reply text-uppercase">reply</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="comment-list left-padding">
+                            <div className="single-comment justify-content-between d-flex">
+                              <div className="user justify-content-between d-flex">
+                                <div className="thumb">
+                                  <img src="../static/img/blog/c2.jpg" alt />
+                                </div>
+                                <div className="desc">
+                                  <h5><a href="#">Emilly Blunt</a></h5>
+                                  <p className="date">December 4, 2017 at 3:12 pm </p>
+                                  <p className="comment">
+                                    Never say goodbye till the end comes!
+                                  </p>
+                                </div>
+                              </div>
+                              <div className="reply-btn">
+                                <a href className="btn-reply text-uppercase">reply</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="comment-list">
+                            <div className="single-comment justify-content-between d-flex">
+                              <div className="user justify-content-between d-flex">
+                                <div className="thumb">
+                                  <img src="../static/img/blog/c3.jpg" alt />
+                                </div>
+                                <div className="desc">
+                                  <h5><a href="#">Emilly Blunt</a></h5>
+                                  <p className="date">December 4, 2017 at 3:12 pm </p>
+                                  <p className="comment">
+                                    Never say goodbye till the end comes!
+                                  </p>
+                                </div>
+                              </div>
+                              <div className="reply-btn">
+                                <a href className="btn-reply text-uppercase">reply</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
-                      <a href="#"><h5>Excepteur sint occaecat cupi non proident laborum.</h5></a>
-                      <p><small><i className="fa fa-calendar" data-original-title="" title=""></i> 30 Juni 2014</small></p>
-                    </li>
-                    <hr />
-                    
-                    <li className="recent-post">
-                    <div className="post-img">
-                      <img src="https://lh3.googleusercontent.com/-ojLI116-Mxk/WM1ZIwdnuwI/AAAAAAAADeo/4K6VpwIPSfgsmlXJB5o0N8scuI3iW4OpwCJoC/w424-h318-n-rw/thumbnail6.jpg" className="img-responsive" />
+                    </div>
+                  </div>
+                  <div className="comment-form">
+                    <h4>Post Comment</h4>
+                    <form>
+                      <div className="form-group form-inline">
+                        <div className="form-group col-lg-6 col-md-12 name">
+                          <input type="text" className="form-control" id="name" placeholder="Enter Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Name'" />
+                        </div>
+                        <div className="form-group col-lg-6 col-md-12 email">
+                          <input type="email" className="form-control" id="email" placeholder="Enter email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" />
+                        </div>
                       </div>
-                      <a href="#"><h5>Excepteur sint occaecat cupi non proident laborum.</h5></a>
-                      <p><small><i className="fa fa-calendar" data-original-title="" title=""></i> 30 Juni 2014</small></p>
-                    </li>
-                    <hr />
-                    
-                    <li className="recent-post">
-                    <div className="post-img">
-                      <img src="https://lh3.googleusercontent.com/-TrK1csbtHRs/WM1ZI1SIUNI/AAAAAAAADeo/OkiUjuad6skWl9ugxbiIA_436OwsWKBNgCJoC/w424-h318-n-rw/thumbnail3.jpg" className="img-responsive" />
+                      <div className="form-group">
+                        <input type="text" className="form-control" id="subject" placeholder="Subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Subject'" />
                       </div>
-                      <a href="#"><h5>Excepteur sint occaecat cupi non proident laborum.</h5></a>
-                      <p><small><i className="fa fa-calendar" data-original-title="" title=""></i> 30 Juni 2014</small></p>
-                    </li>
-                    <hr />
-                    
-                    <li className="recent-post">
-                    <div className="post-img">
-                      <img src="https://lh3.googleusercontent.com/-UKfIhJSBW9M/WM1ZI8ou34I/AAAAAAAADeo/vlLGY29147AYLaxUW29ZXJlun115BhkhgCJoC/w424-h318-n-rw/thumbnail7.jpg" className="img-responsive" />
+                      <div className="form-group">
+                        <textarea className="form-control mb-10" rows={5} name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required defaultValue={""} />
                       </div>
-                      <a href="#"><h5>Excepteur sint occaecat cupi non proident laborum.</h5></a>
-                      <p><small><i className="fa fa-calendar" data-original-title="" title=""></i> 30 Juni 2014</small></p>
-                    </li>
-                    
-                    
-                </ul>
+                      <a href="#" className="primary-btn text-uppercase">Post Comment</a>
+                    </form>
+                  </div>
+                </div>
+                {/* End single-post Area */}
               </div>
+              <div className="col-lg-4">
+                <div className="sidebars-area">
+                  <div className="single-sidebar-widget editors-pick-widget">
+                    <h6 className="title">Editor’s Pick</h6>
+                    <div className="editors-pick-post">
+                      <div className="feature-img-wrap relative">
+                        <div className="feature-img relative">
+                          <div className="overlay overlay-bg" />
+                          <img className="img-fluid" src="../static/img/e1.jpg" alt />
+                        </div>
+                        <ul className="tags">
+                          <li><a href="#">Travel</a></li>
+                        </ul>
+                      </div>
+                      <div className="details">
+                        <a href="image-post.html">
+                          <h4 className="mt-20">A Discount Toner Cartridge Is
+                            Better Than Ever.</h4>
+                        </a>
+                        <ul className="meta">
+                          <li><a href="#"><span className="lnr lnr-user" />Mark wiens</a></li>
+                          <li><a href="#"><span className="lnr lnr-calendar-full" />03 April, 2018</a></li>
+                          <li><a href="#"><span className="lnr lnr-bubble" />06 </a></li>
+                        </ul>
+                        <p className="excert">
+                          Lorem ipsum dolor sit amet, consecteturadip isicing elit, sed do eiusmod tempor incididunt ed do eius.
+                        </p>
+                      </div>
+                      <div className="post-lists">
+                        <div className="single-post d-flex flex-row">
+                          <div className="thumb">
+                            <img src="../static/img/e2.jpg" alt />
+                          </div>
+                          <div className="detail">
+                            <a href="image-post.html"><h6>Help Finding Information
+                                Online is so easy</h6></a>
+                            <ul className="meta">
+                              <li><a href="#"><span className="lnr lnr-calendar-full" />03 April, 2018</a></li>
+                              <li><a href="#"><span className="lnr lnr-bubble" />06</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div className="single-post d-flex flex-row">
+                          <div className="thumb">
+                            <img src="../static/img/e3.jpg" alt />
+                          </div>
+                          <div className="detail">
+                            <a href="image-post.html"><h6>Compatible Inkjet Cartr
+                                world famous</h6></a>
+                            <ul className="meta">
+                              <li><a href="#"><span className="lnr lnr-calendar-full" />03 April, 2018</a></li>
+                              <li><a href="#"><span className="lnr lnr-bubble" />06</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div className="single-post d-flex flex-row">
+                          <div className="thumb">
+                            <img src="../static/img/e4.jpg" alt />
+                          </div>
+                          <div className="detail">
+                            <a href="image-post.html"><h6>5 Tips For Offshore Soft
+                                Development </h6></a>
+                            <ul className="meta">
+                              <li><a href="#"><span className="lnr lnr-calendar-full" />03 April, 2018</a></li>
+                              <li><a href="#"><span className="lnr lnr-bubble" />06</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="single-sidebar-widget ads-widget">
+                    <img className="img-fluid" src="../static/img/sidebar-ads.jpg" alt />
+                  </div>
+                  <div className="single-sidebar-widget newsletter-widget">
+                    <h6 className="title">Newsletter</h6>
+                    <p>
+                      Here, I focus on a range of items
+                      andfeatures that we use in life without
+                      giving them a second thought.
+                    </p>
+                    <div className="form-group d-flex flex-row">
+                      <div className="col-autos">
+                        <div className="input-group">
+                          <input className="form-control" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address'" type="text" />
+                        </div>
+                      </div>
+                      <a href="#" className="bbtns">Subcribe</a>
+                    </div>
+                    <p>
+                      You can unsubscribe us at any time
+                    </p>
+                  </div>
+                  <div className="single-sidebar-widget most-popular-widget">
+                    <h6 className="title">Most Popular</h6>
+                    <div className="single-list flex-row d-flex">
+                      <div className="thumb">
+                        <img src="../static/img/m1.jpg" alt />
+                      </div>
+                      <div className="details">
+                        <a href="image-post.html">
+                          <h6>Help Finding Information
+                            Online is so easy</h6>
+                        </a>
+                        <ul className="meta">
+                          <li><a href="#"><span className="lnr lnr-calendar-full" />03 April, 2018</a></li>
+                          <li><a href="#"><span className="lnr lnr-bubble" />06</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div className="single-list flex-row d-flex">
+                      <div className="thumb">
+                        <img src="../static/img/m2.jpg" alt />
+                      </div>
+                      <div className="details">
+                        <a href="image-post.html">
+                          <h6>Compatible Inkjet Cartr
+                            world famous</h6>
+                        </a>
+                        <ul className="meta">
+                          <li><a href="#"><span className="lnr lnr-calendar-full" />03 April, 2018</a></li>
+                          <li><a href="#"><span className="lnr lnr-bubble" />06</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div className="single-list flex-row d-flex">
+                      <div className="thumb">
+                        <img src="../static/img/m3.jpg" alt />
+                      </div>
+                      <div className="details">
+                        <a href="image-post.html">
+                          <h6>5 Tips For Offshore Soft
+                            Development </h6>
+                        </a>
+                        <ul className="meta">
+                          <li><a href="#"><span className="lnr lnr-calendar-full" />03 April, 2018</a></li>
+                          <li><a href="#"><span className="lnr lnr-bubble" />06</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div className="single-list flex-row d-flex">
+                      <div className="thumb">
+                        <img src="../static/img/m4.jpg" alt />
+                      </div>
+                      <div className="details">
+                        <a href="image-post.html">
+                          <h6>5 Tips For Offshore Soft
+                            Development </h6>
+                        </a>
+                        <ul className="meta">
+                          <li><a href="#"><span className="lnr lnr-calendar-full" />03 April, 2018</a></li>
+                          <li><a href="#"><span className="lnr lnr-bubble" />06</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="single-sidebar-widget social-network-widget">
+                    <h6 className="title">Social Networks</h6>
+                    <ul className="social-list">
+                      <li className="d-flex justify-content-between align-items-center fb">
+                        <div className="icons d-flex flex-row align-items-center">
+                          <i className="fa fa-facebook" aria-hidden="true" />
+                          <p>983 Likes</p>
+                        </div>
+                        <a href="#">Like our page</a>
+                      </li>
+                      <li className="d-flex justify-content-between align-items-center tw">
+                        <div className="icons d-flex flex-row align-items-center">
+                          <i className="fa fa-twitter" aria-hidden="true" />
+                          <p>983 Followers</p>
+                        </div>
+                        <a href="#">Follow Us</a>
+                      </li>
+                      <li className="d-flex justify-content-between align-items-center yt">
+                        <div className="icons d-flex flex-row align-items-center">
+                          <i className="fa fa-youtube-play" aria-hidden="true" />
+                          <p>983 Subscriber</p>
+                        </div>
+                        <a href="#">Subscribe</a>
+                      </li>
+                      <li className="d-flex justify-content-between align-items-center rs">
+                        <div className="icons d-flex flex-row align-items-center">
+                          <i className="fa fa-rss" aria-hidden="true" />
+                          <p>983 Subscribe</p>
+                        </div>
+                        <a href="#">Subscribe</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-        </div> 
-    </article>
+            </div>
+          </div>
+        </section>
+        {/* End latest-post Area */}
+      </div>
+      {/* start footer Area */}
+      <Footer />
     </div>
     <style jsx>{`
-        @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i')
-        * { box-sizing: border-box; }
-        .holder {
-          font-family: 'Lato', sans-serif;
-          font-size: 16px;
-          line-height: 1.6;
-          color: rgba(0,0,0,.7);
-        }
-        .category {
-          text-transform: uppercase;
-          font-weight: 900;
-          font-size: 1.5rem;
-          color: rgba(0,0,0,.35);
-        }
-        .author-avatar img {
-          width: 30px;
-          margin: 0 .5rem;
-          border-radius: 15px;
-          position: relative;
-          top: .7rem;
-        }
-        .meta .author, .meta .pub-date { 
-          /*display: block;*/
-          font-weight: 900;
-          font-size: .7rem;
-          text-transform: uppercase;
-          color: rgba(0,0,0,.35);
-        }
-        .meta-border {
-          margin: 2rem 0;
-          width: 10rem;
-          height: .5rem;
-          background: rgba(0,0,0,.7);
-          display: block;
-        }
-        h1 { font-size: 3.5rem; font-weight: 900; margin: 1rem 0; line-height: 1.1;  }
-        h2 { font-size: 2.5rem; }
-        h3 { font-size: 2rem; }
-        p { font-size: 1.25rem; }
-       .article { padding: 0 1rem; margin: 0 auto; }
-        img { max-width: 100%; }
-        /*
-         navigation
-       */
-      .nav-body {
-        padding-right: 100px; 
-        font: 500 16px/1.2 Lato;
-        float:right
-       }
-       .nav {
-         list-style: none;
-       }
        
-       /*
-         nav list items
-         1. side by side
-         2. needed for circle positioning
-       */
-       .nav li {
-         float: left; /*1*/
-       }
-       
-       /*
-         nav link items
-       */
-       .nav > li a {
-         display: block; /*1*/
-         padding: 0px 18px; /*2*/
-         text-decoration: none; /*3*/
-         color: #000; /*4*/
-         transition: all ease .5s;
-         opacity:0.7
-       }
-       
-       /*
-         fade out all links on ul hover
-       */
-       .nav:hover > li a {
-         opacity: .5;
-         transition: all ease .5s;
-       }
-       
-       /*
-         override previous rule to highlight current link
-       */
-       .nav > li:hover a {
-         opacity: 1;
-         border-color: #E74C3C;
-       }
-       /*recent-post-col////////////////////*/
-.widget-sidebar {
-    background-color: #fff;
-    padding: 20px;
-    margin-top: 30px;
-}
-
-.title-widget-sidebar {
-    font-size: 14pt;
-    border-bottom: 2px solid #e5ebef;
-    margin-bottom: 15px;
-    padding-bottom: 10px;    
-    margin-top: 0px;
-}
-
-.title-widget-sidebar:after {
-    border-bottom: 2px solid #f1c40f;
-    width: 150px;
-    display: block;
-    position: absolute;
-    content: '';
-    padding-bottom: 10px;
-}
-
-.recent-post{width: 100%;height: 80px;list-style-type: none;}
-.post-img img {
-    width: 100px;
-    height: 70px;
-    float: left;
-    margin-right: 15px;
-    border: 5px solid #16A085;
-    transition: 0.5s;
-}
-
-.recent-post a {text-decoration: none;color:#34495E;transition: 0.5s;}
-.post-img, .recent-post a:hover{color:#F39C12;}
-.post-img img:hover{border: 5px solid #F39C12;}
     `}</style>
   </div>
 )

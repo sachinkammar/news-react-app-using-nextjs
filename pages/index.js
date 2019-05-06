@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 import Nav from '../components/nav';
+import Footer from '../components/footer'
 const Home = () => (
   <div className="bodyp">
     <Head title="News Test Pl">
@@ -35,75 +36,7 @@ const Home = () => (
       <link rel="stylesheet" href="../static/css/main.css" />
     </Head>
     <div>
-        <header>
-          <div className="header-top">
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-6 col-md-6 col-sm-6 col-6 header-top-left no-padding">
-                  <ul>
-                    <li><a href="#"><i className="fa fa-facebook" /></a></li>
-                    <li><a href="#"><i className="fa fa-twitter" /></a></li>
-                    <li><a href="#"><i className="fa fa-dribbble" /></a></li>
-                    <li><a href="#"><i className="fa fa-behance" /></a></li>
-                  </ul>
-                </div>
-                <div className="col-lg-6 col-md-6 col-sm-6 col-6 header-top-right no-padding">
-                  <ul>
-                    <li><a href="tel:+440 012 3654 896"><span className="lnr lnr-phone-handset" /><span>+440 012 3654 896</span></a></li>
-                    <li><a href="mailto:support@colorlib.com"><span className="lnr lnr-envelope" /><span>support@colorlib.com</span></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="logo-wrap">
-            <div className="container">
-              <div className="row justify-content-between align-items-center">
-                <div className="col-lg-4 col-md-4 col-sm-12 logo-left no-padding">
-                  <a href="index.html">
-                    <img className="img-fluid" src="../static/img/logo.png" alt />
-                  </a>
-                </div>
-                <div className="col-lg-8 col-md-8 col-sm-12 logo-right no-padding ads-banner">
-                  <img className="img-fluid" src="../static/img/banner-ad.jpg" alt />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="container main-menu" id="main-menu">
-            <div className="row align-items-center justify-content-between">
-              <nav id="nav-menu-container">
-                <ul className="nav-menu">
-                  <li className="menu-active"><a href="index.html">Home</a></li>
-                  <li><a href="archive.html">Archive</a></li>
-                  <li><a href="category.html">Category</a></li>
-                  <li className="menu-has-children"><a href>Post Types</a>
-                    <ul>
-                      <li><a href="standard-post.html">Standard Post</a></li>
-                      <li><a href="image-post.html">Image Post</a></li>
-                      <li><a href="gallery-post.html">Gallery Post</a></li>
-                      <li><a href="video-post.html">Video Post</a></li>
-                      <li><a href="audio-post.html">Audio Post</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-                </ul>
-              </nav>{/* #nav-menu-container */}
-              <div className="navbar-right">
-                <form className="Search">
-                  <input type="text" className="form-control Search-box" name="Search-box" id="Search-box" placeholder="Search" />
-                  <label htmlFor="Search-box" className="Search-box-label">
-                    <span className="lnr lnr-magnifier" />
-                  </label>
-                  <span className="Search-close">
-                    <span className="lnr lnr-cross" />
-                  </span>
-                </form>
-              </div>
-            </div>
-          </div>
-        </header>
+        <Nav />
         <div className="site-main-container">
           {/* Start top-post Area */}
           <section className="top-post-area pt-10">
@@ -648,72 +581,7 @@ const Home = () => (
           {/* End latest-post Area */}
         </div>
         {/* start footer Area */}
-        <footer className="footer-area section-gap">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-3 col-md-6 single-footer-widget">
-                <h4>Top Products</h4>
-                <ul>
-                  <li><a href="#">Managed Website</a></li>
-                  <li><a href="#">Manage Reputation</a></li>
-                  <li><a href="#">Power Tools</a></li>
-                  <li><a href="#">Marketing Service</a></li>
-                </ul>
-              </div>
-              <div className="col-lg-2 col-md-6 single-footer-widget">
-                <h4>Quick Links</h4>
-                <ul>
-                  <li><a href="#">Jobs</a></li>
-                  <li><a href="#">Brand Assets</a></li>
-                  <li><a href="#">Investor Relations</a></li>
-                  <li><a href="#">Terms of Service</a></li>
-                </ul>
-              </div>
-              <div className="col-lg-2 col-md-6 single-footer-widget">
-                <h4>Features</h4>
-                <ul>
-                  <li><a href="#">Jobs</a></li>
-                  <li><a href="#">Brand Assets</a></li>
-                  <li><a href="#">Investor Relations</a></li>
-                  <li><a href="#">Terms of Service</a></li>
-                </ul>
-              </div>
-              <div className="col-lg-2 col-md-6 single-footer-widget">
-                <h4>Resources</h4>
-                <ul>
-                  <li><a href="#">Guides</a></li>
-                  <li><a href="#">Research</a></li>
-                  <li><a href="#">Experts</a></li>
-                  <li><a href="#">Agencies</a></li>
-                </ul>
-              </div>
-              <div className="col-lg-3 col-md-6 single-footer-widget">
-                <h4>Instragram Feed</h4>
-                <ul className="instafeed d-flex flex-wrap">
-                  <li><img src="../static/img/i1.jpg" alt /></li>
-                  <li><img src="../static/img/i2.jpg" alt /></li>
-                  <li><img src="../static/img/i3.jpg" alt /></li>
-                  <li><img src="../static/img/i4.jpg" alt /></li>
-                  <li><img src="../static/img/i5.jpg" alt /></li>
-                  <li><img src="../static/img/i6.jpg" alt /></li>
-                  <li><img src="../static/img/i7.jpg" alt /></li>
-                  <li><img src="../static/img/i8.jpg" alt /></li>
-                </ul>
-              </div>
-            </div>
-            <div className="footer-bottom row align-items-center">
-              <p className="footer-text m-0 col-lg-8 col-md-12">{/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-                Copyright © All rights reserved | This template is made with <i className="fa fa-heart-o" aria-hidden="true" /> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}</p>
-              <div className="col-lg-4 col-md-12 footer-social">
-                <a href="#"><i className="fa fa-facebook" /></a>
-                <a href="#"><i className="fa fa-twitter" /></a>
-                <a href="#"><i className="fa fa-dribbble" /></a>
-                <a href="#"><i className="fa fa-behance" /></a>
-              </div>
-            </div>
-          </div>
-        </footer>
+        <Footer />
       </div>
 
 
