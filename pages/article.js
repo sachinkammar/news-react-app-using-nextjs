@@ -25,6 +25,7 @@ const Article = () => (
             and resemble a crêpe. In North America, a raising agent is used (typically baking powder). The North American pancake is similar to a Scotch pancake or drop scone. " name="description" />
         <meta property="og:url" content="https://webcam.platifi.com/article" />
         <meta property="og:type" content="website" />
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"></link>
     </Head>
     <div className="nav-body">
       <ul className="nav">
@@ -35,7 +36,8 @@ const Article = () => (
       </ul>
     </div><br /><br />
     <div className="holder">
-    <article className="article">
+    <article className="container">
+    <div className="col-md-8">
         <header className="header">
             <div className="category">Life</div>
             <h1 className="headline">
@@ -85,7 +87,53 @@ const Article = () => (
             <li>Eggs</li>
             <li>Flour or other starchy base.</li>
             <li>Pure deliciousness.</li>
-        </ul>  
+        </ul> 
+        </div>
+        <div className="col-md-4">      
+            <div className="widget-sidebar">
+              <h2 className="title-widget-sidebar">// RECENT POST</h2>
+                <div className="content-widget-sidebar">
+                <ul>
+                  <li className="recent-post">
+                    <div className="post-img">
+                      <img src="https://lh3.googleusercontent.com/-ndZJOGgvYQ4/WM1ZI8dH86I/AAAAAAAADeo/l67ZqZnRUO8QXIQi38bEXuxqHfVX0TV2gCJoC/w424-h318-n-rw/thumbnail8.jpg" className="img-responsive" />
+                      </div>
+                      <a href="#"><h5>Excepteur sint occaecat cupi non proident laborum.</h5></a>
+                      <p><small><i className="fa fa-calendar" data-original-title="" title=""></i> 30 Juni 2014</small></p>
+                    </li>
+                    <hr />
+                    
+                    <li className="recent-post">
+                    <div className="post-img">
+                      <img src="https://lh3.googleusercontent.com/-ojLI116-Mxk/WM1ZIwdnuwI/AAAAAAAADeo/4K6VpwIPSfgsmlXJB5o0N8scuI3iW4OpwCJoC/w424-h318-n-rw/thumbnail6.jpg" className="img-responsive" />
+                      </div>
+                      <a href="#"><h5>Excepteur sint occaecat cupi non proident laborum.</h5></a>
+                      <p><small><i className="fa fa-calendar" data-original-title="" title=""></i> 30 Juni 2014</small></p>
+                    </li>
+                    <hr />
+                    
+                    <li className="recent-post">
+                    <div className="post-img">
+                      <img src="https://lh3.googleusercontent.com/-TrK1csbtHRs/WM1ZI1SIUNI/AAAAAAAADeo/OkiUjuad6skWl9ugxbiIA_436OwsWKBNgCJoC/w424-h318-n-rw/thumbnail3.jpg" className="img-responsive" />
+                      </div>
+                      <a href="#"><h5>Excepteur sint occaecat cupi non proident laborum.</h5></a>
+                      <p><small><i className="fa fa-calendar" data-original-title="" title=""></i> 30 Juni 2014</small></p>
+                    </li>
+                    <hr />
+                    
+                    <li className="recent-post">
+                    <div className="post-img">
+                      <img src="https://lh3.googleusercontent.com/-UKfIhJSBW9M/WM1ZI8ou34I/AAAAAAAADeo/vlLGY29147AYLaxUW29ZXJlun115BhkhgCJoC/w424-h318-n-rw/thumbnail7.jpg" className="img-responsive" />
+                      </div>
+                      <a href="#"><h5>Excepteur sint occaecat cupi non proident laborum.</h5></a>
+                      <p><small><i className="fa fa-calendar" data-original-title="" title=""></i> 30 Juni 2014</small></p>
+                    </li>
+                    
+                    
+                </ul>
+              </div>
+              </div>
+        </div> 
     </article>
     </div>
     <style jsx>{`
@@ -128,7 +176,7 @@ const Article = () => (
         h2 { font-size: 2.5rem; }
         h3 { font-size: 2rem; }
         p { font-size: 1.25rem; }
-        .article { max-width: 45rem; padding: 0 1rem; margin: 0 auto; }
+       .article { padding: 0 1rem; margin: 0 auto; }
         img { max-width: 100%; }
         /*
          navigation
@@ -178,6 +226,43 @@ const Article = () => (
          opacity: 1;
          border-color: #E74C3C;
        }
+       /*recent-post-col////////////////////*/
+.widget-sidebar {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.title-widget-sidebar {
+    font-size: 14pt;
+    border-bottom: 2px solid #e5ebef;
+    margin-bottom: 15px;
+    padding-bottom: 10px;    
+    margin-top: 0px;
+}
+
+.title-widget-sidebar:after {
+    border-bottom: 2px solid #f1c40f;
+    width: 150px;
+    display: block;
+    position: absolute;
+    content: '';
+    padding-bottom: 10px;
+}
+
+.recent-post{width: 100%;height: 80px;list-style-type: none;}
+.post-img img {
+    width: 100px;
+    height: 70px;
+    float: left;
+    margin-right: 15px;
+    border: 5px solid #16A085;
+    transition: 0.5s;
+}
+
+.recent-post a {text-decoration: none;color:#34495E;transition: 0.5s;}
+.post-img, .recent-post a:hover{color:#F39C12;}
+.post-img img:hover{border: 5px solid #F39C12;}
     `}</style>
   </div>
 )
