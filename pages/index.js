@@ -45,7 +45,7 @@ const Home = () => (
                 <div className="col-lg-8 top-post-left">
                   <div className="feature-image-thumb relative">
                     <div className="overlay overlay-bg" />
-                    <img className="img-fluid" src="../static/img/top-post1.jpg" alt />
+                    <img className="img-fluid" src="https://a3.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1142677_1296x518.jpg&w=660&h=264&scale=crop&cquality=80&location=center&format=jpg" alt />
                   </div>
                   <div className="top-post-details">
                     <ul className="tags">
@@ -84,7 +84,7 @@ const Home = () => (
                   <div className="single-top-post mt-10">
                     <div className="feature-image-thumb relative">
                       <div className="overlay overlay-bg" />
-                      <img className="img-fluid" src="../static/img/top-post3.jpg" alt />
+                      <img className="img-fluid" src="https://a1.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1182186_1296x729.jpg&w=238&h=133&scale=crop&cquality=80&location=center" alt />
                     </div>
                     <div className="top-post-details">
                       <ul className="tags">
@@ -122,7 +122,7 @@ const Home = () => (
                       <div className="col-lg-5 post-left">
                         <div className="feature-img relative">
                           <div className="overlay overlay-bg" />
-                          <img className="img-fluid" src="../static/img/l1.jpg" alt />
+                          <img className="img-fluid" src="https://a.espncdn.com/combiner/i?img=/media/motion/2019/0506/dm_190506_0605_Dhoni_v_Data_Site/dm_190506_0605_Dhoni_v_Data_Site.jpg" alt />
                         </div>
                         <ul className="tags">
                           <li><a href="#">Lifestyle</a></li>
@@ -147,7 +147,7 @@ const Home = () => (
                       <div className="col-lg-5 post-left">
                         <div className="feature-img relative">
                           <div className="overlay overlay-bg" />
-                          <img className="img-fluid" src="../static/img/l2.jpg" alt />
+                          <img className="img-fluid" src="https://a.espncdn.com/combiner/i?img=/media/motion/2019/0506/dm_190506_0605_SPOTIFY/dm_190506_0605_SPOTIFY.jpg" alt />
                         </div>
                         <ul className="tags">
                           <li><a href="#">Science</a></li>
@@ -172,7 +172,7 @@ const Home = () => (
                       <div className="col-lg-5 post-left">
                         <div className="feature-img relative">
                           <div className="overlay overlay-bg" />
-                          <img className="img-fluid" src="../static/img/l3.jpg" alt />
+                          <img className="img-fluid" src="https://a.espncdn.com/combiner/i?img=%2Fmedia%2Fmotion%2F2019%2F0506%2Fdm_190506_0605_Dailies_Site%2Fdm_190506_0605_Dailies_Site.jpg&w=768&h=432&scale=crop&cquality=80&location=origin&format=jpg../static/img/l3.jpg" alt />
                         </div>
                         <ul className="tags">
                           <li><a href="#">Travel</a></li>
@@ -197,7 +197,7 @@ const Home = () => (
                       <div className="col-lg-5 post-left">
                         <div className="feature-img relative">
                           <div className="overlay overlay-bg" />
-                          <img className="img-fluid" src="../static/img/l4.jpg" alt />
+                          <img className="img-fluid" src="https://a2.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1181173_900x506.jpg&w=768&h=432&scale=crop&cquality=80&location=origin&format=jpg" alt />
                         </div>
                         <ul className="tags">
                           <li><a href="#">Fashion</a></li>
@@ -222,7 +222,7 @@ const Home = () => (
                   {/* End latest-post Area */}
                   {/* Start banner-ads Area */}
                   <div className="col-lg-12 ad-widget-wrap mt-30 mb-30">
-                    <img className="img-fluid" src="../static/img/banner-ad.jpg" alt />
+                    <img className="img-fluid" src="https://a.espncdn.com/media/motion/2019/0424/dm_190424_240419-ARNOLD-WCXI-NRH/dm_190424_240419-ARNOLD-WCXI-NRH.jpg" alt />
                   </div>
                   {/* End banner-ads Area */}
                   {/* Start popular-post Area */}
@@ -231,7 +231,7 @@ const Home = () => (
                     <div className="feature-post relative">
                       <div className="feature-img relative">
                         <div className="overlay overlay-bg" />
-                        <img className="img-fluid" src="../static/img/f1.jpg" alt />
+                        <img className="https://a.espncdn.com/media/motion/2019/0420/dm_190420_2004_Sanjay_WC_Quiz_site/dm_190420_2004_Sanjay_WC_Quiz_site.jpg" alt />
                       </div>
                       <div className="details">
                         <ul className="tags">
@@ -252,7 +252,7 @@ const Home = () => (
                         <div className="feature-img-wrap relative">
                           <div className="feature-img relative">
                             <div className="overlay overlay-bg" />
-                            <img className="img-fluid" src="../static/img/f2.jpg" alt />
+                            <img className="img-fluid" src="https://a.espncdn.com/media/motion/2019/0506/dm_190506_060519-RC-WOMEN-NRH/dm_190506_060519-RC-WOMEN-NRH.jpg" alt />
                           </div>
                           <ul className="tags">
                             <li><a href="#">Travel</a></li>
@@ -277,7 +277,7 @@ const Home = () => (
                         <div className="feature-img-wrap relative">
                           <div className="feature-img relative">
                             <div className="overlay overlay-bg" />
-                            <img className="img-fluid" src="../static/img/f3.jpg" alt />
+                            <img className="img-fluid" src="https://a.espncdn.com/media/motion/2019/0505/dm_190505_0505_MI_PC_SITE/dm_190505_0505_MI_PC_SITE.jpg" alt />
                           </div>
                           <ul className="tags">
                             <li><a href="#">Travel</a></li>
@@ -309,7 +309,7 @@ const Home = () => (
                         <div className="col-lg-5 post-left">
                           <div className="feature-img relative">
                             <div className="overlay overlay-bg" />
-                            <img className="img-fluid" src="../static/img/r1.jpg" alt />
+                            <img className="img-fluid" src="https://a.espncdn.com/media/motion/2019/0505/dm_190505_0505_M55_KKR_MI_POST_SITE_revis/dm_190505_0505_M55_KKR_MI_POST_SITE_revis.jpg" alt />
                           </div>
                           <ul className="tags">
                             <li><a href="#">Lifestyle</a></li>
@@ -334,7 +334,7 @@ const Home = () => (
                         <div className="col-lg-5 post-left">
                           <div className="feature-img relative">
                             <div className="overlay overlay-bg" />
-                            <img className="img-fluid" src="../static/img/r2.jpg" alt />
+                            <img className="img-fluid" src="https://a.espncdn.com/media/motion/2019/0505/dm_190505_0505_M55_KKR_MI_POST/dm_190505_0505_M55_KKR_MI_POST.jpg" alt />
                           </div>
                           <ul className="tags">
                             <li><a href="#">Science</a></li>
@@ -359,7 +359,7 @@ const Home = () => (
                         <div className="col-lg-5 post-left">
                           <div className="feature-img relative">
                             <div className="overlay overlay-bg" />
-                            <img className="img-fluid" src="../static/img/r3.jpg" alt />
+                            <img className="img-fluid" src="https://a.espncdn.com/media/motion/2019/0506/dm_190506_IPL_TOP5_MIvKKR_M56/dm_190506_IPL_TOP5_MIvKKR_M56.jpg" alt />
                           </div>
                           <ul className="tags">
                             <li><a href="#">Travel</a></li>
@@ -392,7 +392,7 @@ const Home = () => (
                         <div className="feature-img-wrap relative">
                           <div className="feature-img relative">
                             <div className="overlay overlay-bg" />
-                            <img className="img-fluid" src="../static/img/e1.jpg" alt />
+                            <img className="img-fluid" src="https://a.espncdn.com/media/motion/2019/0505/dm_190505_0505_PANASONIC/dm_190505_0505_PANASONIC.jpg" alt />
                           </div>
                           <ul className="tags">
                             <li><a href="#">Travel</a></li>
@@ -415,7 +415,7 @@ const Home = () => (
                         <div className="post-lists">
                           <div className="single-post d-flex flex-row">
                             <div className="thumb">
-                              <img src="../static/img/e2.jpg" alt />
+                              <img src="https://a.espncdn.com/media/motion/2019/0506/dm_190506_060519-TOP5-NRH-KXIPVCSK/dm_190506_060519-TOP5-NRH-KXIPVCSK.jpg" alt />
                             </div>
                             <div className="detail">
                               <a href="image-post.html"><h6>Help Finding Information
@@ -428,7 +428,7 @@ const Home = () => (
                           </div>
                           <div className="single-post d-flex flex-row">
                             <div className="thumb">
-                              <img src="../static/img/e3.jpg" alt />
+                              <img src="https://a.espncdn.com/media/motion/2019/0505/dm_190505_0505_Punjab_PC_SITE/dm_190505_0505_Punjab_PC_SITE.jpg" alt />
                             </div>
                             <div className="detail">
                               <a href="image-post.html"><h6>Compatible Inkjet Cartr
@@ -441,7 +441,7 @@ const Home = () => (
                           </div>
                           <div className="single-post d-flex flex-row">
                             <div className="thumb">
-                              <img src="../static/img/e4.jpg" alt />
+                              <img src="https://a.espncdn.com/media/motion/2019/0505/dm_190505_0505_CSK_STEPHEN_FLEMING_PC_SIT/dm_190505_0505_CSK_STEPHEN_FLEMING_PC_SIT.jpg" alt />
                             </div>
                             <div className="detail">
                               <a href="image-post.html"><h6>5 Tips For Offshore Soft
@@ -456,7 +456,7 @@ const Home = () => (
                       </div>
                     </div>
                     <div className="single-sidebar-widget ads-widget">
-                      <img className="img-fluid" src="../static/img/sidebar-ads.jpg" alt />
+                      <img className="img-fluid" src="https://a.espncdn.com/media/motion/2019/0505/dm_190505_0505_M55_KXIP_CSK_PRE_01/dm_190505_0505_M55_KXIP_CSK_PRE_01.jpg" alt />
                     </div>
                     <div className="single-sidebar-widget newsletter-widget">
                       <h6 className="title">Newsletter</h6>
@@ -481,7 +481,7 @@ const Home = () => (
                       <h6 className="title">Most Popular</h6>
                       <div className="single-list flex-row d-flex">
                         <div className="thumb">
-                          <img src="../static/img/m1.jpg" alt />
+                          <img src="https://secure.espncdn.com/combiner/i?img=/i/cricket/cricinfo/1183355_1296x729.jpg&w=238&h=134&scale=crop&location=center&cquality=80" alt />
                         </div>
                         <div className="details">
                           <a href="image-post.html">
@@ -496,7 +496,7 @@ const Home = () => (
                       </div>
                       <div className="single-list flex-row d-flex">
                         <div className="thumb">
-                          <img src="../static/img/m2.jpg" alt />
+                          <img src="https://secure.espncdn.com/combiner/i?img=/i/cricket/cricinfo/1183355_1296x729.jpg&w=238&h=134&scale=crop&location=center&cquality=80" alt />
                         </div>
                         <div className="details">
                           <a href="image-post.html">
@@ -511,7 +511,7 @@ const Home = () => (
                       </div>
                       <div className="single-list flex-row d-flex">
                         <div className="thumb">
-                          <img src="../static/img/m3.jpg" alt />
+                          <img src="https://secure.espncdn.com/combiner/i?img=/i/cricket/cricinfo/1143624_1296x518.jpg&w=628&h=252&scale=crop&location=center&cquality=80" alt />
                         </div>
                         <div className="details">
                           <a href="image-post.html">
@@ -526,7 +526,7 @@ const Home = () => (
                       </div>
                       <div className="single-list flex-row d-flex">
                         <div className="thumb">
-                          <img src="../static/img/m4.jpg" alt />
+                          <img src="https://secure.espncdn.com/combiner/i?img=/i/cricket/cricinfo/1182890_1296x729.jpg&w=768&h=432&scale=crop&location=center&cquality=80" alt />
                         </div>
                         <div className="details">
                           <a href="image-post.html">
